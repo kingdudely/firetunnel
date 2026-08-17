@@ -1,0 +1,11 @@
+{
+	"name": "-",
+  "version": "1.0.0",
+	"main": "lib/index.js",
+	"type": "module",
+  "license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kingdudely/firetunnel.git"
+	}
+}
