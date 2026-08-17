@@ -9,6 +9,7 @@
 		"url": "git+https://github.com/kingdudely/firetunnel.git"
 	},
 	"dependencies": {
-		"parse-prometheus-text-format": "^1.1.1"
+		"parse-prometheus-text-format": "^1.1.1",
+		"cloudflared": "^0.7.3"
 	}
 }
