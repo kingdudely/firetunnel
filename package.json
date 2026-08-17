@@ -1,11 +1,14 @@
 {
-	"name": "-",
-  "version": "1.0.0",
+	"name": "firetunnel",
+	"version": "1.0.0",
 	"main": "lib/index.js",
 	"type": "module",
-  "license": "ISC",
+	"license": "ISC",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/kingdudely/firetunnel.git"
+	},
+	"dependencies": {
+		"parse-prometheus-text-format": "^1.1.1"
 	}
 }
