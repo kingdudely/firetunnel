@@ -1,4 +1,4 @@
-import { setTimeout } from "node:timers/promise"';
+import { setTimeout } from "node:timers/promises";
 import Tunnel from "firetunnel";
 
 const tunnel = new Tunnel({
