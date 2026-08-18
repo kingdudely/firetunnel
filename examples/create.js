@@ -11,5 +11,5 @@ while (!await tunnel.isReady()) await setTimeout(1000);
 const { hostname } = await tunnel.getQuickTunnelInfo();
 console.log(`Hostname: ${hostname}`);
 
-const exitedInfo = await tunnel.closed;
+const exitedInfo = await tunnel.exited;
 console.log(`Exit info: ${JSON.stringify(exitedInfo, null, 2)}`);
