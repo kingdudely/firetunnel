@@ -2,7 +2,7 @@
 	"name": "firetunnel",
 	"version": "1.0.0",
 	"main": "lib/index.js",
-	"type": "module",
+	"type": "commonjs",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
