@@ -1,6 +1,8 @@
 import { setTimeout } from "node:timers/promises";
 import Tunnel from "firetunnel";
 
+await Tunnel.installCloudflared();
+
 const tunnel = new Tunnel({
 	"url": "localhost:8080",
     "metrics": "localhost:8081"
