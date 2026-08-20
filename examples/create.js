@@ -5,7 +5,7 @@ await Tunnel.installCloudflared();
 
 const tunnel = new Tunnel({
 	"url": "localhost:8080",
-    "metrics": "localhost:8081"
+	"metrics": "localhost:8081"
 });
 
 while (!await tunnel.isReady()) await setTimeout(1000);
